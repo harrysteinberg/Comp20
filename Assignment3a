@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HTML 5 Doc</title>
+	<style>
+		body,html {padding: 0; margin: 0px; width: 100%; height: 100%}
+		
+		header h1 { text-align:center; font-family: cursive; font-size: 40px; width:100%}
+		
+		header {background-color:#AAAAAA;
+		color: #fff; padding: 20px 40px; width: 100%;}
+		
+		nav { background-color:#FF3BF8; padding:20px 0px; margin:0; list-style:none; width:100%}
+		nav a {color: #fff; font-size: 20px; text-decoration: none;}
+		
+		nav ul {list-style-type:none; width: 100%; margin-top:0px}
+		nav ul li {display: inline-block; float:left; margin-right:10%}
+		nav ul li a {color: #000000; margin:0px; font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"}
+		
+		aside {width: 25%; float:right; text-align: center; border-style: solid; border-color: #AAAAAA; border-width: 10px; background: #FF3BF8; padding: 20px; height: 500px; margin: 0px}
+		
+		article {width:75%; border-style:solid; border-color: #AAAAAA; border-width:10px 10px 10px 0px; margin:0; height:500px; padding: 20px; }
+		
+		h2 {text-align:center; font-family: "brush-script-mt", cursive; font-size: 40px}
+		
+		h3 {text-align: left; font-size: 15px}
+	
+		aside ul li {text-align: left;}
+		aside ul li a {color: #0100FF; font-size:15px}
+		
+		section{padding: 20px 20px 20px 0px; font-size: 15px}
+		
+		footer {margin-top: 20px; padding-left: 20px}
+		
+		
+		
+	</style>
+	
+	
+	
+</head>
+<body>
+	<header>
+		<h1>Header</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">OUR TEAM</a></li>
+			<li><a href="#">PROJECTS</a></li>
+			<li><a href="#">CONTACT</a></li>
+			<li>
+				<form>
+					<input type='text' name='search' value = "Search Query" size="40px">
+					<input type = 'submit' value = "GO!">
+				</form>
+			</li>
+		</ul>
+	</nav>
+	
+	<aside>
+		<h2>
+			Related
+		</h2>
+		
+		<ul>
+			<li><a href="#"> Oh I do like to beside the seaside</a></li>
+			<li><a href="#"> Oh I do like to be beside the sea</a></li>
+			<li><a href="#"> Although in the North of England </a></li>
+			<li><a href="#"> It never stops raining </a></li>
+			<li><a href="#"> Oh well...</a></li>
+			
+			
+		</ul>
+	
+	</aside>
+	
+	<article>
+		<h2><b> Article heading</b></h2>
+		<section>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		
+		</section>
+		
+		<h3>
+			subsection
+		</h3>
+		<section>
+			Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+		
+		<h3> 
+			Another subsection
+		</h3>
+		
+		<section>
+			Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+		</section>
+	</article>
+	
+	<footer>
+	Copyright 2050 by nobody. All rights reserved.
+	</footer>
+	
+</body>
+</html>
